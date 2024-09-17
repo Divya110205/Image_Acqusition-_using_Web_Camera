@@ -41,8 +41,6 @@ while (True) :
 videoCaptureObject.release()
 cv2.destroyAllWindows()
 
-
-
 ## ii) Display the video
 import numpy as np
 import cv2
@@ -54,8 +52,6 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
-
 
 ## iii) Display the video by resizing the window
 import numpy as np
@@ -77,8 +73,6 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-
-
 ## iv) Rotate and display the video
 
 import numpy as np
@@ -99,35 +93,28 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
-
-
-
-
-
-
 ```
 ## Output
 
 ### i) Write the frame as JPG image
-</br>
-</br>
+![1](https://github.com/user-attachments/assets/1b41f193-8686-4edb-a1dd-502574c0e655)
+
 
 
 ### ii) Display the video
-</br>
-</br>
+![2](https://github.com/user-attachments/assets/d45b7d80-a8d0-42c5-bbc1-0b66fb06f86b)
+
 
 
 ### iii) Display the video by resizing the window
-</br>
-</br>
+![3](https://github.com/user-attachments/assets/0ba59777-a010-40ac-99f8-947230a5687d)
+
 
 
 
 ### iv) Rotate and display the video
-</br>
-</br>
+![4](https://github.com/user-attachments/assets/16b39242-dc8c-4f76-bfcd-3e5bb6643e1e)
+
 
 
 
